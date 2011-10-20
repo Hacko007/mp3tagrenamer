@@ -15,18 +15,18 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1BDA6D61B51387D6B6882B69E823D3BF"
-        "OwnerKey" = "8:_987CCFE693894F7FA3AB747D4FC516D2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_987CCFE693894F7FA3AB747D4FC516D2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_BB674795EB726A78457EA54D553085CD"
+        "OwnerKey" = "8:_987CCFE693894F7FA3AB747D4FC516D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_987CCFE693894F7FA3AB747D4FC516D2"
         "MsmSig" = "8:_UNDEFINED"
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1BDA6D61B51387D6B6882B69E823D3BF"
+        "OwnerKey" = "8:_BB674795EB726A78457EA54D553085CD"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -122,9 +122,9 @@
             {
                 "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_79210F4774454C04BCD3F1024272F0BA"
                 {
-                "Name" = "8:.NET Framework"
+                "Name" = "8:.NET Framework4"
                 "Message" = "8:[VSDNETMSG]"
-                "Version" = "8:3.5.20706"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -132,14 +132,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1BDA6D61B51387D6B6882B69E823D3BF"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BB674795EB726A78457EA54D553085CD"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:UltraID3Lib, Version=0.9.6.6, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_1BDA6D61B51387D6B6882B69E823D3BF"
+                    "_BB674795EB726A78457EA54D553085CD"
                     {
                     "Name" = "8:UltraID3Lib.dll"
                     "Attributes" = "3:512"
@@ -220,8 +220,9 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MP3 Renamer"
         "ProductCode" = "8:{75C43A91-EC51-4CC8-ADB6-F3CDAC494DB5}"
-        "PackageCode" = "8:{21030CC2-16D3-41F0-99FF-1E5E8F5B3C2E}"
+        "PackageCode" = "8:{46E37D2E-F20B-4ED0-8356-26F562F1EBA9}"
         "UpgradeCode" = "8:{8A2987B1-BEDF-4F59-9E79-D6EF8568003B}"
+        "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
