@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -9,15 +10,16 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MP3TagRenamer</RootNamespace>
     <AssemblyName>MP3TagRenamer</AssemblyName>
-    <ApplicationIcon>Icons\ProgramIcon.ico</ApplicationIcon>
+    <ApplicationIcon>1308839077_MP3.ico</ApplicationIcon>
     <StartupObject>MP3TagRenamer.Program</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>http://localhost/MP3TagRenamer/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -41,6 +43,7 @@
     <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -49,6 +52,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,6 +61,7 @@
     <DebugType>full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <OutputPath>bin\x64\Release\</OutputPath>
@@ -65,6 +70,7 @@
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x64</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -73,6 +79,7 @@
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -81,6 +88,7 @@
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -95,9 +103,9 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UltraID3Lib, Version=0.9.6.6, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="UltraID3Lib, Version=0.9.6.8, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\UltraID3Lib-0.9.6.6\UltraID3Lib.dll</HintPath>
+      <HintPath>..\UltraID3Lib\UltraID3Lib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -107,11 +115,23 @@
     <Compile Include="FormComposePressets.Designer.cs">
       <DependentUpon>FormComposePressets.cs</DependentUpon>
     </Compile>
+    <Compile Include="Language.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Language.Designer.cs">
+      <DependentUpon>Language.cs</DependentUpon>
+    </Compile>
     <Compile Include="MovableButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="MovableButton.Designer.cs">
       <DependentUpon>MovableButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
     </Compile>
     <Compile Include="ResourceTexts.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -123,18 +143,6 @@
     </Compile>
     <Compile Include="UserControlBatchRenameFields.Designer.cs">
       <DependentUpon>UserControlBatchRenameFields.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlCompareDuplicates.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlCompareDuplicates.Designer.cs">
-      <DependentUpon>UserControlCompareDuplicates.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormDeleteFileList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDeleteFileList.Designer.cs">
-      <DependentUpon>FormDeleteFileList.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControlFolderSelector.cs">
       <SubType>UserControl</SubType>
@@ -160,11 +168,11 @@
     <Compile Include="MP3TagEditor\TrackInfoExtracingProperties.Designer.cs">
       <DependentUpon>TrackInfoExtracingProperties.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAboutBox.cs">
-      <SubType>Form</SubType>
+    <Compile Include="About.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FormAboutBox.Designer.cs">
-      <DependentUpon>FormAboutBox.cs</DependentUpon>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -175,6 +183,12 @@
     <EmbeddedResource Include="FormMP3Renamer.bs-Latn-BA.resx">
       <DependentUpon>FormMP3Renamer.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language.resx">
+      <DependentUpon>Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ResourceTexts.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -191,22 +205,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlBatchRenameFields.sv-SE.resx">
       <DependentUpon>UserControlBatchRenameFields.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlCompareDuplicates.bs-Latn-BA.resx">
-      <DependentUpon>UserControlCompareDuplicates.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlCompareDuplicates.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>UserControlCompareDuplicates.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDeleteFileList.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>FormDeleteFileList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlCompareDuplicates.sv-SE.resx">
-      <DependentUpon>UserControlCompareDuplicates.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlFolderSelector.bs-Latn-BA.resx">
@@ -229,9 +227,9 @@
       <SubType>Designer</SubType>
       <DependentUpon>TrackInfoExtracingProperties.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAboutBox.resx">
+    <EmbeddedResource Include="About.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>FormAboutBox.cs</DependentUpon>
+      <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -279,6 +277,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="1308839077_MP3.ico" />
     <Content Include="Help.htm">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -294,6 +293,11 @@
     <None Include="Resources\my_play_datagridcolumn.Image.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
       <Visible>False</Visible>
       <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
@@ -309,11 +313,22 @@
       <ProductName>.NET Framework 3.5</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
       <Visible>False</Visible>
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FindDuplicateMp3\FindDuplicates.csproj">
+      <Project>{C825405B-2417-4867-8819-FD3ED0906A38}</Project>
+      <Name>FindDuplicates</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
