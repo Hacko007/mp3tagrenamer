@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TracksDataSet" targetNamespace="http://tempuri.org/TracksDataSet.xsd" xmlns:mstns="http://tempuri.org/TracksDataSet.xsd" xmlns="http://tempuri.org/TracksDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TracksDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TracksDataSet" msprop:Generator_UserDSName="TracksDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ParentTrack" msprop:Generator_TableClassName="ParentTrackDataTable" msprop:Generator_TableVarName="tableParentTrack" msprop:Generator_TablePropName="ParentTrack" msprop:Generator_RowDeletingName="ParentTrackRowDeleting" msprop:Generator_UserTableName="ParentTrack" msprop:Generator_RowChangingName="ParentTrackRowChanging" msprop:Generator_RowEvHandlerName="ParentTrackRowChangeEventHandler" msprop:Generator_RowDeletedName="ParentTrackRowDeleted" msprop:Generator_RowEvArgName="ParentTrackRowChangeEvent" msprop:Generator_RowChangedName="ParentTrackRowChanged" msprop:Generator_RowClassName="ParentTrackRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnPropNameInTable="LengthColumn" msprop:Generator_UserColumnName="Length" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:long" />
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" type="xs:string" minOccurs="0" />
+              <xs:element name="Artist" msprop:Generator_ColumnVarNameInTable="columnArtist" msprop:Generator_ColumnPropNameInRow="Artist" msprop:Generator_ColumnPropNameInTable="ArtistColumn" msprop:Generator_UserColumnName="Artist" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ChildTrac" msprop:Generator_TableClassName="ChildTracDataTable" msprop:Generator_TableVarName="tableChildTrac" msprop:Generator_TablePropName="ChildTrac" msprop:Generator_RowDeletingName="ChildTracRowDeleting" msprop:Generator_UserTableName="ChildTrac" msprop:Generator_RowChangingName="ChildTracRowChanging" msprop:Generator_RowEvHandlerName="ChildTracRowChangeEventHandler" msprop:Generator_RowDeletedName="ChildTracRowDeleted" msprop:Generator_RowEvArgName="ChildTracRowChangeEvent" msprop:Generator_RowChangedName="ChildTracRowChanged" msprop:Generator_RowClassName="ChildTracRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnPropNameInTable="LengthColumn" msprop:Generator_UserColumnName="Length" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" type="xs:string" minOccurs="0" />
+              <xs:element name="Path" msprop:Generator_ColumnVarNameInTable="columnPath" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnPropNameInTable="PathColumn" msprop:Generator_UserColumnName="Path" type="xs:string" />
+              <xs:element name="ParentId" msprop:Generator_ColumnVarNameInTable="columnParentId" msprop:Generator_ColumnPropNameInRow="ParentId" msprop:Generator_ColumnPropNameInTable="ParentIdColumn" msprop:Generator_UserColumnName="ParentId" type="xs:long" />
+              <xs:element name="Artist" msprop:Generator_ColumnVarNameInTable="columnArtist" msprop:Generator_ColumnPropNameInRow="Artist" msprop:Generator_ColumnPropNameInTable="ArtistColumn" msprop:Generator_UserColumnName="Artist" type="xs:string" minOccurs="0" />
+              <xs:element name="IsMarkedForDelete" msprop:Generator_ColumnVarNameInTable="columnIsMarkedForDelete" msprop:Generator_ColumnPropNameInRow="IsMarkedForDelete" msprop:Generator_ColumnPropNameInTable="IsMarkedForDeleteColumn" msprop:Generator_UserColumnName="IsMarkedForDelete" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="IsDeleted" msprop:Generator_ColumnVarNameInTable="columnIsDeleted" msprop:Generator_ColumnPropNameInRow="IsDeleted" msprop:Generator_ColumnPropNameInTable="IsDeletedColumn" msprop:Generator_UserColumnName="IsDeleted" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DeletedFiles" msprop:Generator_TableClassName="DeletedFilesDataTable" msprop:Generator_TableVarName="tableDeletedFiles" msprop:Generator_TablePropName="DeletedFiles" msprop:Generator_RowDeletingName="DeletedFilesRowDeleting" msprop:Generator_UserTableName="DeletedFiles" msprop:Generator_RowChangingName="DeletedFilesRowChanging" msprop:Generator_RowEvHandlerName="DeletedFilesRowChangeEventHandler" msprop:Generator_RowDeletedName="DeletedFilesRowDeleted" msprop:Generator_RowEvArgName="DeletedFilesRowChangeEvent" msprop:Generator_RowChangedName="DeletedFilesRowChanged" msprop:Generator_RowClassName="DeletedFilesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Path" msprop:Generator_ColumnVarNameInTable="columnPath" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnPropNameInTable="PathColumn" msprop:Generator_UserColumnName="Path" type="xs:string" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnPropNameInTable="LengthColumn" msprop:Generator_UserColumnName="Length" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="Artist" msprop:Generator_ColumnVarNameInTable="columnArtist" msprop:Generator_ColumnPropNameInRow="Artist" msprop:Generator_ColumnPropNameInTable="ArtistColumn" msprop:Generator_UserColumnName="Artist" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:ParentTrack" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ChildTrac" />
+      <xs:field xpath="mstns:Path" />
+    </xs:unique>
+    <xs:unique name="DeletedFiles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DeletedFiles" />
+      <xs:field xpath="mstns:Path" />
+    </xs:unique>
+    <xs:keyref name="FK_ChildTrac_DeletedFiles" refer="Constraint2" msprop:rel_Generator_UserChildTable="DeletedFiles" msprop:rel_Generator_ChildPropName="GetDeletedFilesRows" msprop:rel_Generator_UserParentTable="ChildTrac" msprop:rel_Generator_UserRelationName="FK_ChildTrac_DeletedFiles" msprop:rel_Generator_RelationVarName="relationFK_ChildTrac_DeletedFiles" msprop:rel_Generator_ParentPropName="ChildTracRow">
+      <xs:selector xpath=".//mstns:DeletedFiles" />
+      <xs:field xpath="mstns:Path" />
+    </xs:keyref>
+    <xs:keyref name="FK_ChildTrac_ParentTrack" refer="Constraint1" msprop:rel_Generator_UserChildTable="ChildTrac" msprop:rel_Generator_ChildPropName="GetChildTracRows" msprop:rel_Generator_UserParentTable="ParentTrack" msprop:rel_Generator_UserRelationName="FK_ChildTrac_ParentTrack" msprop:rel_Generator_RelationVarName="relationFK_ChildTrac_ParentTrack" msprop:rel_Generator_ParentPropName="ParentTrackRow">
+      <xs:selector xpath=".//mstns:ChildTrac" />
+      <xs:field xpath="mstns:ParentId" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,176 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:Form1.cs" caret="0" fromTop="0" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.Designer.cs" caret="30" fromTop="1" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.Designer.cs" caret="0" fromTop="0" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.Designer.cs" caret="465" fromTop="0" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:Form1.Designer.cs" caret="1666" fromTop="13" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:DuplicateList.cs" caret="680" fromTop="37" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="1473" fromTop="38" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.cs" caret="543" fromTop="17" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1773" fromTop="27" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1989" fromTop="8" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.Designer.cs" caret="6760" fromTop="16" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="11" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="22" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="31" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="26" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="204" fromTop="15" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="350" fromTop="10" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="820" fromTop="34" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="544" fromTop="21" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="201" fromTop="9" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="17" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="22" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="11" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="0" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="0" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1981" fromTop="31" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1990" fromTop="48" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.Designer.cs" caret="3114" fromTop="34" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="125" fromTop="5" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.Designer.cs" caret="27" fromTop="1" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.Designer.cs" caret="7530" fromTop="0" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.cs" caret="747" fromTop="16" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.cs" caret="730" fromTop="17" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplicates.cs" caret="425" fromTop="12" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="353" fromTop="10" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1990" fromTop="4" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:SearchedDirectory.cs" caret="1473" fromTop="38" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1990" fromTop="15" />
+      <File id="C825405B-2417-4867-8819-FD3ED0906A38/f:FindDuplictesSettings.cs" caret="1773" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="2" />
+      <Item value="new" priority="2" />
+      <Item value="SearchedDirectory`0" priority="3" />
+      <Item value="flowLayoutPanel1" priority="0" />
+      <Item value="m_DirectoriesFlowLayoutPanel" priority="1" />
+      <Item value="dir" priority="3" />
+      <Item value="public" priority="3" />
+      <Item value="EventHandler`0" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="Control`0" priority="2" />
+      <Item value="ctrl" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="height" priority="2" />
+      <Item value="control" priority="1" />
+      <Item value="Validate`0" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="m_ErrorProvider" priority="1" />
+      <Item value="m_TextBoxPath" priority="5" />
+      <Item value="if" priority="2" />
+      <Item value="string" priority="4" />
+      <Item value="prop" priority="4" />
+      <Item value="bool" priority="1" />
+      <Item value="return" priority="3" />
+      <Item value="null" priority="3" />
+      <Item value="value" priority="1" />
+      <Item value="m_CheckBoxIncludSubSirectories" priority="0" />
+      <Item value="m_FolderBrowserDialog" priority="1" />
+      <Item value="DialogResult`0" priority="0" />
+      <Item value="Path" priority="0" />
+      <Item value="struct" priority="0" />
+      <Item value="ListBindingConverter`0" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="dirs" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="searchDir" priority="3" />
+      <Item value="SearchedDirectory" priority="0" />
+      <Item value="DirectoryPath" priority="0" />
+      <Item value="SearchInSubDirectories" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="m_FindDuplictesSettings" priority="1" />
+      <Item value="m_DuplicateList" priority="1" />
+      <Item value="m_TabPageSettings" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="m_TabPageSearchForDuplicates" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FlowLayoutPanel">
+      <Item value="Controls" priority="4" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Cast`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FindDuplicates.SearchedDirectory">
+      <Item value="Height" priority="0" />
+      <Item value="RemoveClicked" priority="0" />
+      <Item value="Path" priority="1" />
+      <Item value="IncludeSubDirectory" priority="0" />
+      <Item value="PathChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Height" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ErrorProvider">
+      <Item value="SetError`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrWhiteSpace`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FolderBrowserDialog">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="SelectedPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.EventArgs">
+      <Item value="Empty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FindDuplicateMp3s.FindDuplictesSettings">
+      <Item value="SelectedFolders" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FindDuplicateMp3s.DuplicateList">
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
