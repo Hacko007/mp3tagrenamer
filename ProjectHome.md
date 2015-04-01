@@ -1,0 +1,12 @@
+Organize MP3 tags. Use regular expressions to extract tag info from file name or path. Remove strings from tags. Locate duplicate MP3 files.
+
+
+http://sites.google.com/site/mp3tageditor/_/rsrc/1260813724167/home/09.png?height=349&width=400
+
+
+
+
+http://594779098640651495-a-1802744773732722657-s-sites.googlegroups.com/site/mp3tageditor/screenshots/screenshot_renaming.png?attachauth=ANoY7cqN6ZZiKV6ZGP0T_J5SQUDlRlu0ohKIySbeGy5bfYE4anlIqEUKPzVtcop9m5iZoaVh1xdfOuR1PNANPPYLrelOVr7Vtysk1znI9Z4GPYcTX20i6S2PgAQjlGKqjcZE8EwFNu1Ed_V57XF_aPQmc2UeFwZfd-UvPEemMEoGT56FRTQCU61G0ma0pHczvOPXWM6-qv2zODxl6NlKkBJWJyH1D5iOOR9Wwn4mnkN4LIx3WoIWUCU%3D&attredirects=0
+
+
+https://594779098640651495-a-1802744773732722657-s-sites.googlegroups.com/site/mp3tageditor/screenshots/find_duplicate.png?attachauth=ANoY7cqlpSDej176cezFK4f09zsNwoIuv4ReKPG4ivukKnq4K5v9Qv9X_FuCAdhsDiLpkeavOu-Mp8e5TJosjogwrhjvIpgJFmEJeVkVRcFID32os40HvNmWE0hqxOin3v5CFBlmFAwaArUk7ougbdz30gCGuzWBjuGTQrJbG5kdRzG-ycGl8bjimeAFhgesT0L36ILCqzNnOw_DMKccUqtWEbIfs2twwhowQ5jr9af1VXED2RNXMTU%3D&attredirects=0
