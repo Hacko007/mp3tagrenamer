@@ -1,6 +1,6 @@
-using FindDuplicateMp3s;
+using Mp3TagEditor.ManageDuplicates;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
     partial class MainForm
     {
@@ -41,7 +41,7 @@ namespace MP3TagRenamer
       this.my_label_ID3V1 = new System.Windows.Forms.Label();
       this.My_TabControl_BatchRen = new System.Windows.Forms.TabControl();
       this.m_TabPageBatch = new System.Windows.Forms.TabPage();
-      this.m_UserControlBatchRenameFields = new MP3TagRenamer.UserControlBatchRenameFields();
+      this.m_UserControlBatchRenameFields = new UserControlBatchRenameFields();
       this.m_TabPageRenaming = new System.Windows.Forms.TabPage();
       this.GroupBox_ExtractFromFName = new System.Windows.Forms.GroupBox();
       this.m_ButtonSuggest = new System.Windows.Forms.Button();
@@ -63,11 +63,11 @@ namespace MP3TagRenamer
       this.label2 = new System.Windows.Forms.Label();
       this.my_button_fixTitle = new System.Windows.Forms.Button();
       this.label1 = new System.Windows.Forms.Label();
-      this.m_UserControlTrackList = new MP3TagRenamer.UserControlTrackList();
+      this.m_UserControlTrackList = new UserControlTrackList();
       this.m_TabPageFindDuplicates = new System.Windows.Forms.TabPage();
-      this.m_CompareDuplicates = new FindDuplicateMp3s.FindDuplicates();
+      this.m_CompareDuplicates = new FindDuplicates();
       this.m_TabPageOptions = new System.Windows.Forms.TabPage();
-      this.m_Options = new MP3TagRenamer.Options();
+      this.m_Options = new Options();
       this.m_ImageList = new System.Windows.Forms.ImageList(this.components);
       this.My_UltraID3BindingSource = new System.Windows.Forms.BindingSource(this.components);
       this.My_HelpProvider = new System.Windows.Forms.HelpProvider();

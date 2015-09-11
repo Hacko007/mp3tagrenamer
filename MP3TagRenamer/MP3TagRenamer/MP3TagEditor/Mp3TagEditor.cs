@@ -1,13 +1,10 @@
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
+
 using HundredMilesSoftware.UltraID3Lib;
 
-namespace MP3TagRenamer.MP3TagEditor
+namespace Mp3TagEditor.UI.MP3TagEditor
 {
     public partial class Mp3TagEditor : Form
     {

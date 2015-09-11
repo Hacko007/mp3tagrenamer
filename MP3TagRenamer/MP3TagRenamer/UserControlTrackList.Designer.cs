@@ -1,4 +1,4 @@
-﻿namespace MP3TagRenamer
+﻿namespace Mp3TagEditor.UI
 {
 	partial class UserControlTrackList
 	{
@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlTrackList));
             this.m_DataGridViewTrackList = new System.Windows.Forms.DataGridView();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,12 +42,11 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.m_BindingSourceUltraID3 = new System.Windows.Forms.BindingSource(this.components);
             this.m_FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.buttonLoad = new System.Windows.Forms.Button();
             this.panelTop = new System.Windows.Forms.Panel();
-            this.m_UserControlFolderSelector = new MP3TagRenamer.UserControlFolderSelector();
+            this.m_UserControlFolderSelector = new Mp3TagEditor.UI.UserControlFolderSelector();
             ((System.ComponentModel.ISupportInitialize)(this.m_DataGridViewTrackList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_BindingSourceUltraID3)).BeginInit();
             this.panelTop.SuspendLayout();
@@ -54,15 +54,12 @@
             // 
             // m_DataGridViewTrackList
             // 
-            this.m_DataGridViewTrackList.AccessibleDescription = null;
-            this.m_DataGridViewTrackList.AccessibleName = null;
             this.m_DataGridViewTrackList.AllowUserToAddRows = false;
             this.m_DataGridViewTrackList.AllowUserToOrderColumns = true;
-            resources.ApplyResources(this.m_DataGridViewTrackList, "m_DataGridViewTrackList");
             this.m_DataGridViewTrackList.AutoGenerateColumns = false;
             this.m_DataGridViewTrackList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.m_DataGridViewTrackList.BackgroundImage = null;
             this.m_DataGridViewTrackList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewImageColumn1,
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
@@ -72,14 +69,21 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewImageColumn1});
+            this.dataGridViewTextBoxColumn10});
             this.m_DataGridViewTrackList.DataSource = this.m_BindingSourceUltraID3;
-            this.m_DataGridViewTrackList.Font = null;
+            resources.ApplyResources(this.m_DataGridViewTrackList, "m_DataGridViewTrackList");
             this.m_DataGridViewTrackList.Name = "m_DataGridViewTrackList";
             this.m_DataGridViewTrackList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.m_DataGridViewTrackList.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_MP3s_RowEnter);
             this.m_DataGridViewTrackList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_MP3s_CellContentClick);
+            this.m_DataGridViewTrackList.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridViewTrackList_CellValueChanged);
+            this.m_DataGridViewTrackList.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_MP3s_RowEnter);
+            // 
+            // dataGridViewImageColumn1
+            // 
+            resources.ApplyResources(this.dataGridViewImageColumn1, "dataGridViewImageColumn1");
+            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
+            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -145,65 +149,39 @@
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
             // 
-            // dataGridViewImageColumn1
-            // 
-            resources.ApplyResources(this.dataGridViewImageColumn1, "dataGridViewImageColumn1");
-            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
-            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            // 
             // m_BindingSourceUltraID3
             // 
             this.m_BindingSourceUltraID3.DataSource = typeof(HundredMilesSoftware.UltraID3Lib.UltraID3);
             this.m_BindingSourceUltraID3.DataError += new System.Windows.Forms.BindingManagerDataErrorEventHandler(this.BindingSourceUltraID3_DataError);
             // 
-            // m_FolderBrowserDialog
-            // 
-            resources.ApplyResources(this.m_FolderBrowserDialog, "m_FolderBrowserDialog");
-            // 
             // buttonLoad
             // 
-            this.buttonLoad.AccessibleDescription = null;
-            this.buttonLoad.AccessibleName = null;
             resources.ApplyResources(this.buttonLoad, "buttonLoad");
-            this.buttonLoad.BackgroundImage = null;
-            this.buttonLoad.Font = null;
             this.buttonLoad.Name = "buttonLoad";
             this.buttonLoad.UseVisualStyleBackColor = true;
             this.buttonLoad.Click += new System.EventHandler(this.buttonLoad_Click);
             // 
-            // m_UserControlFolderSelector
-            // 
-            this.m_UserControlFolderSelector.AccessibleDescription = null;
-            this.m_UserControlFolderSelector.AccessibleName = null;
-            this.m_UserControlFolderSelector.ActualPath = "";
-            resources.ApplyResources(this.m_UserControlFolderSelector, "m_UserControlFolderSelector");
-            this.m_UserControlFolderSelector.BackgroundImage = null;
-            this.m_UserControlFolderSelector.Font = null;
-            this.m_UserControlFolderSelector.Name = "m_UserControlFolderSelector";
-            this.m_UserControlFolderSelector.Paths = new string[] {""};
-            // 
             // panelTop
             // 
-            this.panelTop.AccessibleDescription = null;
-            this.panelTop.AccessibleName = null;
-            resources.ApplyResources(this.panelTop, "panelTop");
-            this.panelTop.BackgroundImage = null;
             this.panelTop.Controls.Add(this.m_UserControlFolderSelector);
             this.panelTop.Controls.Add(this.buttonLoad);
-            this.panelTop.Font = null;
+            resources.ApplyResources(this.panelTop, "panelTop");
             this.panelTop.Name = "panelTop";
+            // 
+            // m_UserControlFolderSelector
+            // 
+            this.m_UserControlFolderSelector.ActualPath = "";
+            resources.ApplyResources(this.m_UserControlFolderSelector, "m_UserControlFolderSelector");
+            this.m_UserControlFolderSelector.Name = "m_UserControlFolderSelector";
+            this.m_UserControlFolderSelector.Paths = new string[] {
+        ""};
             // 
             // UserControlTrackList
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
             this.Controls.Add(this.m_DataGridViewTrackList);
             this.Controls.Add(this.panelTop);
-            this.Font = null;
             this.Name = "UserControlTrackList";
             ((System.ComponentModel.ISupportInitialize)(this.m_DataGridViewTrackList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_BindingSourceUltraID3)).EndInit();
@@ -214,7 +192,7 @@
 
 		#endregion
 
-		private MP3TagRenamer.UserControlFolderSelector m_UserControlFolderSelector;
+		private UserControlFolderSelector m_UserControlFolderSelector;
         private System.Windows.Forms.DataGridView m_DataGridViewTrackList;
 		private System.Windows.Forms.BindingSource m_BindingSourceUltraID3;
 		private System.Windows.Forms.FolderBrowserDialog m_FolderBrowserDialog;
@@ -228,6 +206,7 @@
 		private string m_ActivePath;
 		private System.Windows.Forms.Button buttonLoad;
         private System.Windows.Forms.Panel panelTop;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
@@ -238,8 +217,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
-
-
-	}
+    }
 }

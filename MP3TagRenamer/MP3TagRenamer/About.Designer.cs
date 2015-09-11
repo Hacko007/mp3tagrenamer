@@ -1,4 +1,4 @@
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
     partial class About
     {

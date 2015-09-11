@@ -1,4 +1,4 @@
-﻿namespace MP3TagRenamer
+﻿namespace Mp3TagEditor.UI
 {
 	partial class FormComposePressets
 	{
@@ -36,13 +36,13 @@
             this.textBoxResult = new System.Windows.Forms.TextBox();
             this.m_FlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonClear = new System.Windows.Forms.Button();
-            this.buttonFolderSeparator = new MP3TagRenamer.MovableButton(this.components);
-            this.buttonSeparator = new MP3TagRenamer.MovableButton(this.components);
-            this.buttonTitle = new MP3TagRenamer.MovableButton(this.components);
-            this.buttonTrackNr = new MP3TagRenamer.MovableButton(this.components);
-            this.buttonYear = new MP3TagRenamer.MovableButton(this.components);
-            this.buttonArtist = new MP3TagRenamer.MovableButton(this.components);
-            this.buttonAlbum = new MP3TagRenamer.MovableButton(this.components);
+            this.buttonFolderSeparator = new MovableButton(this.components);
+            this.buttonSeparator = new MovableButton(this.components);
+            this.buttonTitle = new MovableButton(this.components);
+            this.buttonTrackNr = new MovableButton(this.components);
+            this.buttonYear = new MovableButton(this.components);
+            this.buttonArtist = new MovableButton(this.components);
+            this.buttonAlbum = new MovableButton(this.components);
             this.textBoxPath = new System.Windows.Forms.TextBox();
             this.buttonTest = new System.Windows.Forms.Button();
             this.labelTest = new System.Windows.Forms.Label();

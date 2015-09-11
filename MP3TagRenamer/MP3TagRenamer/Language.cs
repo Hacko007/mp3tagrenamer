@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Windows.Forms;
-using MP3TagRenamer.Properties;
 
-namespace MP3TagRenamer
+using Mp3TagEditor.UI.Properties;
+
+namespace Mp3TagEditor.UI
 {
   public partial class Language : UserControl
   {
@@ -17,7 +18,7 @@ namespace MP3TagRenamer
     {
       try
       {
-        Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo( Settings.Default.LanguageUsed );
+        Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Settings.Default.LanguageUsed );
         m_RadioButtonEnglish.Checked = true;
         m_RadioButtonSwedish.Checked = false;
         m_RadioButtonBosnian.Checked = false;

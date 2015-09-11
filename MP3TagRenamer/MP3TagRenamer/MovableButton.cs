@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
+﻿using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
 	/// <summary>
 	/// This button suport Drag and Drop functionality.

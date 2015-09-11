@@ -1,4 +1,4 @@
-﻿namespace FindDuplicateMp3s
+﻿namespace Mp3TagEditor.ManageDuplicates
 {
   partial class SearchedDirectory
   {

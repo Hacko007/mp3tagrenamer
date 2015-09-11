@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
     static class Program
     {

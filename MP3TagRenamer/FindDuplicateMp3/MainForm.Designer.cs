@@ -1,4 +1,4 @@
-﻿namespace FindDuplicateMp3s
+﻿namespace Mp3TagEditor.ManageDuplicates
 {
   partial class MainForm
   {
@@ -29,7 +29,7 @@
     private void InitializeComponent()
     {
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-      this.findDuplicates1 = new FindDuplicateMp3s.FindDuplicates();
+      this.findDuplicates1 = new FindDuplicates();
       this.SuspendLayout();
       // 
       // findDuplicates1

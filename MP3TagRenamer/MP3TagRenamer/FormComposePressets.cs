@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
 	public partial class FormComposePressets : Form
 	{

@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Windows.Forms;
-using FindDuplicateMp3s.Properties;
 
-namespace FindDuplicateMp3s
+using Mp3TagEditor.ManageDuplicates.Properties;
+
+namespace Mp3TagEditor.ManageDuplicates
 {
   public partial class DuplicateList : UserControl
   {

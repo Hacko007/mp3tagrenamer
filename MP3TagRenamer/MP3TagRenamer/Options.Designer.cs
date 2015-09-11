@@ -1,4 +1,4 @@
-﻿namespace MP3TagRenamer
+﻿namespace Mp3TagEditor.UI
 {
   partial class Options
   {
@@ -30,9 +30,9 @@
     {
       this.m_TabControl = new System.Windows.Forms.TabControl();
       this.m_TabPageLanguage = new System.Windows.Forms.TabPage();
-      this.language1 = new MP3TagRenamer.Language();
+      this.language1 = new Language();
       this.m_TabPageAbout = new System.Windows.Forms.TabPage();
-      this.about1 = new MP3TagRenamer.About();
+      this.about1 = new About();
       this.m_TabControl.SuspendLayout();
       this.m_TabPageLanguage.SuspendLayout();
       this.m_TabPageAbout.SuspendLayout();

@@ -1,4 +1,4 @@
-namespace MP3TagRenamer.MP3TagEditor
+namespace Mp3TagEditor.UI.MP3TagEditor
 {
     partial class TrackInfoExtracingProperties
     {
@@ -43,39 +43,39 @@ namespace MP3TagRenamer.MP3TagEditor
             // 
             // TextBox_Album
             // 
-            this.TextBox_Album.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::MP3TagRenamer.Properties.Settings.Default , "regex_album" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
+            this.TextBox_Album.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::Mp3TagEditor.UI.Properties.Settings.Default , "regex_album" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
             this.TextBox_Album.Location = new System.Drawing.Point( 69 , 26 );
             this.TextBox_Album.Name = "TextBox_Album";
             this.TextBox_Album.Size = new System.Drawing.Size( 261 , 20 );
             this.TextBox_Album.TabIndex = 0;
-            this.TextBox_Album.Text = global::MP3TagRenamer.Properties.Settings.Default.regex_album;
+            this.TextBox_Album.Text = global::Mp3TagEditor.UI.Properties.Settings.Default.regex_album;
             // 
             // TextBox_Artist
             // 
-            this.TextBox_Artist.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::MP3TagRenamer.Properties.Settings.Default , "regex_artist" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
+            this.TextBox_Artist.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::Mp3TagEditor.UI.Properties.Settings.Default , "regex_artist" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
             this.TextBox_Artist.Location = new System.Drawing.Point( 69 , 54 );
             this.TextBox_Artist.Name = "TextBox_Artist";
             this.TextBox_Artist.Size = new System.Drawing.Size( 261 , 20 );
             this.TextBox_Artist.TabIndex = 1;
-            this.TextBox_Artist.Text = global::MP3TagRenamer.Properties.Settings.Default.regex_artist;
+            this.TextBox_Artist.Text = global::Mp3TagEditor.UI.Properties.Settings.Default.regex_artist;
             // 
             // TextBox_Title
             // 
-            this.TextBox_Title.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::MP3TagRenamer.Properties.Settings.Default , "regex_titel" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
+            this.TextBox_Title.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::Mp3TagEditor.UI.Properties.Settings.Default , "regex_titel" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
             this.TextBox_Title.Location = new System.Drawing.Point( 69 , 82 );
             this.TextBox_Title.Name = "TextBox_Title";
             this.TextBox_Title.Size = new System.Drawing.Size( 261 , 20 );
             this.TextBox_Title.TabIndex = 2;
-            this.TextBox_Title.Text = global::MP3TagRenamer.Properties.Settings.Default.regex_titel;
+            this.TextBox_Title.Text = global::Mp3TagEditor.UI.Properties.Settings.Default.regex_titel;
             // 
             // TextBox_Year
             // 
-            this.TextBox_Year.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::MP3TagRenamer.Properties.Settings.Default , "regex_year" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
+            this.TextBox_Year.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::Mp3TagEditor.UI.Properties.Settings.Default , "regex_year" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
             this.TextBox_Year.Location = new System.Drawing.Point( 69 , 110 );
             this.TextBox_Year.Name = "TextBox_Year";
             this.TextBox_Year.Size = new System.Drawing.Size( 261 , 20 );
             this.TextBox_Year.TabIndex = 3;
-            this.TextBox_Year.Text = global::MP3TagRenamer.Properties.Settings.Default.regex_year;
+            this.TextBox_Year.Text = global::Mp3TagEditor.UI.Properties.Settings.Default.regex_year;
             // 
             // label1
             // 
@@ -134,12 +134,12 @@ namespace MP3TagRenamer.MP3TagEditor
             // 
             // TextBox_TrackNr
             // 
-            this.TextBox_TrackNr.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::MP3TagRenamer.Properties.Settings.Default , "regex_tracknr" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
+            this.TextBox_TrackNr.DataBindings.Add( new System.Windows.Forms.Binding( "Text" , global::Mp3TagEditor.UI.Properties.Settings.Default , "regex_tracknr" , true , System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged ) );
             this.TextBox_TrackNr.Location = new System.Drawing.Point( 69 , 136 );
             this.TextBox_TrackNr.Name = "TextBox_TrackNr";
             this.TextBox_TrackNr.Size = new System.Drawing.Size( 261 , 20 );
             this.TextBox_TrackNr.TabIndex = 10;
-            this.TextBox_TrackNr.Text = global::MP3TagRenamer.Properties.Settings.Default.regex_tracknr;
+            this.TextBox_TrackNr.Text = global::Mp3TagEditor.UI.Properties.Settings.Default.regex_tracknr;
             // 
             // TrackInfoExtracingProperties
             // 

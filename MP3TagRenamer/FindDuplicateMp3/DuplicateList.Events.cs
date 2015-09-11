@@ -2,11 +2,12 @@
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Windows.Forms;
 using System.IO;
-using FindDuplicateMp3s.Properties;
+using System.Windows.Forms;
 
-namespace FindDuplicateMp3s
+using Mp3TagEditor.ManageDuplicates.Properties;
+
+namespace Mp3TagEditor.ManageDuplicates
 {
   partial class DuplicateList
   { 

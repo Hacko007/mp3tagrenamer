@@ -1,8 +1,8 @@
 using System;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
     public delegate void ActuelPathChangedHandler(object obj, string path);
 

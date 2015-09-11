@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace FindDuplicateMp3s
+namespace Mp3TagEditor.ManageDuplicates
 {
   public partial class SearchedDirectory : UserControl
   {

@@ -6,9 +6,10 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+
 using HundredMilesSoftware.UltraID3Lib;
 
-namespace FindDuplicateMp3s
+namespace Mp3TagEditor.ManageDuplicates
 {
   partial class DuplicateList
   {

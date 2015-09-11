@@ -1,4 +1,4 @@
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
     partial class UserControlFolderSelector
     {
@@ -56,10 +56,10 @@ namespace MP3TagRenamer
             resources.ApplyResources(this.my_comboBox_Folder, "my_comboBox_Folder");
             this.my_comboBox_Folder.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.my_comboBox_Folder.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystemDirectories;
-            this.my_comboBox_Folder.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::MP3TagRenamer.Properties.Settings.Default, "LastUsedPath", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.my_comboBox_Folder.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::Mp3TagEditor.UI.Properties.Settings.Default, "LastUsedPath", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.my_comboBox_Folder.FormattingEnabled = true;
             this.my_comboBox_Folder.Name = "my_comboBox_Folder";
-            this.my_comboBox_Folder.Text = global::MP3TagRenamer.Properties.Settings.Default.LastUsedPath;
+            this.my_comboBox_Folder.Text = global::Mp3TagEditor.UI.Properties.Settings.Default.LastUsedPath;
             this.my_comboBox_Folder.SelectedIndexChanged += new System.EventHandler(this.ComboBoxFolder_SelectedIndexChanged);
             this.my_comboBox_Folder.DropDownClosed += new System.EventHandler(this.ComboBox_Folder_DropDownClosed);
             this.my_comboBox_Folder.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ComboBoxFolder_KeyDown);

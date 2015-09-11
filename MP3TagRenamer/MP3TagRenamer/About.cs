@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
   internal partial class About : UserControl
   {

@@ -1,4 +1,4 @@
-﻿namespace FindDuplicateMp3s
+﻿namespace Mp3TagEditor.ManageDuplicates
 {
   public partial class FindDuplicates
   {
@@ -32,9 +32,9 @@
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FindDuplicates));
       this.m_TabControlWizard = new System.Windows.Forms.TabControl();
       this.m_TabPageDirectoryList = new System.Windows.Forms.TabPage();
-      this.m_FindDuplictesSettings = new FindDuplicateMp3s.DirectoryList();
+      this.m_FindDuplictesSettings = new DirectoryList();
       this.m_TabPageSearchForDuplicates = new System.Windows.Forms.TabPage();
-      this.m_DuplicateList = new FindDuplicateMp3s.DuplicateList();
+      this.m_DuplicateList = new DuplicateList();
       this.m_ImageList = new System.Windows.Forms.ImageList(this.components);
       this.m_TabControlWizard.SuspendLayout();
       this.m_TabPageDirectoryList.SuspendLayout();

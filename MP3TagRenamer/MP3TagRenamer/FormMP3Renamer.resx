@@ -277,7 +277,7 @@
     <value>m_UserControlBatchRenameFields</value>
   </data>
   <data name="&gt;&gt;m_UserControlBatchRenameFields.Type" xml:space="preserve">
-    <value>MP3TagRenamer.UserControlBatchRenameFields, MP3TagRenamer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Mp3TagEditor.UI.UserControlBatchRenameFields, Mp3TagEditor.UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;m_UserControlBatchRenameFields.Parent" xml:space="preserve">
     <value>m_TabPageBatch</value>
@@ -1132,7 +1132,7 @@
     <value>m_CompareDuplicates</value>
   </data>
   <data name="&gt;&gt;m_CompareDuplicates.Type" xml:space="preserve">
-    <value>FindDuplicateMp3s.FindDuplicates, FindDuplicateMp3s, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Mp3TagEditor.ManageDuplicates.FindDuplicates, Mp3TagEditor.ManageDuplicates, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;m_CompareDuplicates.Parent" xml:space="preserve">
     <value>m_TabPageFindDuplicates</value>
@@ -1189,7 +1189,7 @@
     <value>m_Options</value>
   </data>
   <data name="&gt;&gt;m_Options.Type" xml:space="preserve">
-    <value>MP3TagRenamer.Options, MP3TagRenamer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Mp3TagEditor.UI.Options, Mp3TagEditor.UI, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;m_Options.Parent" xml:space="preserve">
     <value>m_TabPageOptions</value>

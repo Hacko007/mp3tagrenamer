@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using HundredMilesSoftware.UltraID3Lib;
-
-namespace FindDuplicateMp3s
+﻿namespace Mp3TagEditor.ManageDuplicates
 {
   //partial class DuplicateList
   //{

@@ -1,6 +1,4 @@
-﻿using FindDuplicateMp3s.Properties;
-
-namespace FindDuplicateMp3s
+﻿namespace Mp3TagEditor.ManageDuplicates
 {
   partial class DuplicateList
   {
@@ -39,8 +37,8 @@ namespace FindDuplicateMp3s
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-      FindDuplicateMp3s.Properties.Settings settings1 = new FindDuplicateMp3s.Properties.Settings();
-      FindDuplicateMp3s.Properties.Settings settings2 = new FindDuplicateMp3s.Properties.Settings();
+            Mp3TagEditor.ManageDuplicates.Properties.Settings settings1 = new Mp3TagEditor.ManageDuplicates.Properties.Settings();
+            Mp3TagEditor.ManageDuplicates.Properties.Settings settings2 = new Mp3TagEditor.ManageDuplicates.Properties.Settings();
       this.m_PanelMain = new System.Windows.Forms.Panel();
       this.m_SplitContainerMain = new System.Windows.Forms.SplitContainer();
       this.m_SplitContainerSub = new System.Windows.Forms.SplitContainer();
@@ -52,7 +50,7 @@ namespace FindDuplicateMp3s
       this.fileNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
       this.artistDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
       this.m_BindingSourceParent = new System.Windows.Forms.BindingSource(this.components);
-      this.m_TracksDataSet = new FindDuplicateMp3s.TracksDataSet();
+      this.m_TracksDataSet = new Mp3TagEditor.ManageDuplicates.TracksDataSet();
       this.panel2 = new System.Windows.Forms.Panel();
       this.m_LabelDuplicateCount = new System.Windows.Forms.Label();
       this.label1 = new System.Windows.Forms.Label();
@@ -336,7 +334,7 @@ namespace FindDuplicateMp3s
       this.ColumnPlay.DefaultCellStyle = dataGridViewCellStyle4;
       this.ColumnPlay.FillWeight = 80F;
       this.ColumnPlay.HeaderText = "Play";
-      this.ColumnPlay.Image = global::FindDuplicateMp3s.Properties.Resources._1308841068_Play;
+      this.ColumnPlay.Image = global::Mp3TagEditor.ManageDuplicates.Properties.Resources._1308841068_Play;
       this.ColumnPlay.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
       this.ColumnPlay.Name = "ColumnPlay";
       this.ColumnPlay.ReadOnly = true;
@@ -353,7 +351,7 @@ namespace FindDuplicateMp3s
       this.ColumnDelete.DefaultCellStyle = dataGridViewCellStyle5;
       this.ColumnDelete.FillWeight = 50F;
       this.ColumnDelete.HeaderText = "Delete";
-      this.ColumnDelete.Image = global::FindDuplicateMp3s.Properties.Resources._1309256835_Delete;
+      this.ColumnDelete.Image = global::Mp3TagEditor.ManageDuplicates.Properties.Resources._1309256835_Delete;
       this.ColumnDelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
       this.ColumnDelete.Name = "ColumnDelete";
       this.ColumnDelete.ReadOnly = true;
@@ -476,7 +474,7 @@ namespace FindDuplicateMp3s
       // ColumnPlayMarkedForDel
       // 
       this.ColumnPlayMarkedForDel.HeaderText = "Play";
-      this.ColumnPlayMarkedForDel.Image = global::FindDuplicateMp3s.Properties.Resources._1308841068_Play;
+      this.ColumnPlayMarkedForDel.Image = global::Mp3TagEditor.ManageDuplicates.Properties.Resources._1308841068_Play;
       this.ColumnPlayMarkedForDel.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
       this.ColumnPlayMarkedForDel.Name = "ColumnPlayMarkedForDel";
       this.ColumnPlayMarkedForDel.ReadOnly = true;
@@ -490,7 +488,7 @@ namespace FindDuplicateMp3s
       this.ColumnUndelete.DefaultCellStyle = dataGridViewCellStyle7;
       this.ColumnUndelete.FillWeight = 80F;
       this.ColumnUndelete.HeaderText = "Undelete";
-      this.ColumnUndelete.Image = global::FindDuplicateMp3s.Properties.Resources._1308841035_Undo;
+      this.ColumnUndelete.Image = global::Mp3TagEditor.ManageDuplicates.Properties.Resources._1308841035_Undo;
       this.ColumnUndelete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
       this.ColumnUndelete.Name = "ColumnUndelete";
       this.ColumnUndelete.ReadOnly = true;

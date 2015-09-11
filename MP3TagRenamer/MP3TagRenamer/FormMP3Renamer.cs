@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using System.Windows.Forms;
 using System.Threading;
+using System.Windows.Forms;
 
-namespace MP3TagRenamer
+namespace Mp3TagEditor.UI
 {
     public partial class MainForm : Form
     {

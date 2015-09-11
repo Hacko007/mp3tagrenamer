@@ -1,6 +1,6 @@
 using System;
 
-namespace FindDuplicateMp3s
+namespace Mp3TagEditor.ManageDuplicates
 {
   [Flags]
   internal enum CompareFileds
